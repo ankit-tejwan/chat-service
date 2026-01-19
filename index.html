@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk to Me | Friend Chat</title>
+    <style>
+        /* Modern Design Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 350px;
+            width: 90%;
+        }
+        h1 { color: #1c1e21; font-size: 24px; margin-bottom: 10px; }
+        p { color: #606770; font-size: 16px; line-height: 1.5; }
+        .price-tag {
+            font-size: 28px;
+            font-weight: bold;
+            color: #007bff;
+            margin: 15px 0;
+        }
+        .qr-placeholder {
+            background: #eee;
+            border: 2px dashed #ccc;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        img { max-width: 100%; border-radius: 10px; }
+        .btn {
+            display: block;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover { background-color: #218838; }
+        .steps {
+            text-align: left;
+            font-size: 14px;
+            color: #444;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Let's Connect! 👋</h1>
+    <p>Need a friend to talk to? I'm here to listen. One day access for only:</p>
+    
+    <div class="price-tag">₹10.00</div>
+
+    <div class="steps">
+        <strong>How it works:</strong>
+        <ol>
+            <li>Scan the QR code below and pay ₹10.</li>
+            <li>Take a screenshot of the payment.</li>
+            <li>Click the button below to upload and start chatting.</li>
+        </ol>
+    </div>
+
+    <div class="qr-placeholder">
+        <img src="https://via.placeholder.com/200x200.png?text=YOUR+UPI+QR+CODE" alt="Payment QR Code">
+    </div>
+
+    <a href="#" class="btn">SEND PROOF & START CHAT</a>
+    
+    <p style="font-size: 12px; margin-top: 15px;">🔒 Private & Secure Conversation</p>
+</div>
+
+</body>
+</html>
